@@ -2,29 +2,41 @@
 h1 {
     color: black;
     text-align: center;
+    font-weight: 300;
+    --tw-text-opacity: 1;
+    color: gold;
+
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.flex-container div{
+    margin: 4em;
+    width: 100px;
+    flex: 1; 
+
+}
+
+.food-picture-index {
+    height: auto;
+    width: 200px;
 
 }
 
 .food-picture {
+
     height: auto;
     width: 500px;
 
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: salmon;
     
 }
 
-ul {
-    list-style-type: none;
-    list-style-position: outside;
-    list-style-image: none;
-  }
-  
 
-ol {
-    list-style-type: decimal-leading-zero;
-    list-style-position: outside;
-    list-style-image: none;
-  }
+
+
